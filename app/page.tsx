@@ -29,15 +29,15 @@ const publicBasePath =
 // Esta lista alimenta las tarjetas de servicios y el selector de agendamiento.
 const services = [
   {
-    title: "Dirección y supervisión de obra",
+    title: "Dirección y residencia de obra",
     description:
-      "Seguimiento en campo, coordinación de actividades, control de calidad y verificación de procesos constructivos.",
+      "Dirección y residencia en proyectos de construcción, con coordinación de actividades, seguimiento en campo y control de calidad.",
     icon: HardHat,
   },
   {
-    title: "Interventoría de obras y vías",
+    title: "Dirección y residencia de interventoría",
     description:
-      "Acompañamiento profesional y administrativo para obras viales, urbanismo, espacio público y edificaciones.",
+      "Dirección y residencia de interventoría para obras viales, urbanismo, espacio público y edificaciones.",
     icon: Route,
   },
   {
@@ -1324,7 +1324,7 @@ export default function Home() {
         <header className="site-header">
           <div className="container header-inner">
             <a className="brand" href="#inicio" aria-label="Ir al inicio">
-              Xiomara Hercilia Melguizo Martínez
+              Xiomara Melguizo
               <small>Ingeniera civil · Medellín</small>
             </a>
             <nav className="main-nav" aria-label="Navegación principal">
@@ -1345,14 +1345,13 @@ export default function Home() {
             <div className="container hero-grid">
               <div>
                 <span className="eyebrow">Ingeniería civil · Medellín</span>
-                <h1>Xiomara Hercilia Melguizo Martínez</h1>
+                <h1>Xiomara Melguizo</h1>
                 <p className="hero-title">
                   Ingeniera civil · Matrícula profesional 05202155471ANT
                 </p>
                 <p className="hero-copy">
-                  Acompañamiento profesional y responsable para convertir
-                  proyectos de infraestructura, vías y edificación en obras
-                  bien planeadas, supervisadas y ejecutadas.
+                  Dirección y residencia de obra e interventoría para proyectos
+                  civiles, con gestión responsable en cada etapa.
                 </p>
                 <div className="button-row">
                   <a className="button button-gold" href="#agendar">
@@ -1370,8 +1369,8 @@ export default function Home() {
                   <span>años de experiencia</span>
                 </div>
                 <p className="hero-card-copy">
-                  Experiencia como directora de obra y residente de
-                  interventoría en proyectos civiles.
+                  Experiencia en cuatro cargos: directora y residente de obra,
+                  y directora y residente de interventoría.
                 </p>
                 <div className="hero-card-divider" />
                 <div className="hero-detail">
@@ -1392,7 +1391,7 @@ export default function Home() {
                 <Image
                   className="profile-photo"
                   src={`${publicBasePath}/assets/perfilfoto.jpeg`}
-                  alt="Fotografía profesional de Xiomara Hercilia Melguizo Martínez"
+                  alt="Fotografía profesional de Xiomara Melguizo"
                   width={389}
                   height={584}
                 />
@@ -1402,9 +1401,10 @@ export default function Home() {
                 <h2>Experiencia profesional, gestión y liderazgo.</h2>
                 <p>
                   Soy ingeniera civil de la Universidad Nacional de Colombia y
-                  cuento con más de 15 años de experiencia como directora de
-                  obra y residente de interventoría. He participado en
-                  proyectos de vías con grandes movimientos de tierra,
+                  cuento con más de 15 años de experiencia en cuatro cargos:
+                  directora de obra, residente de obra, directora de
+                  interventoría y residente de interventoría. He participado
+                  en proyectos de vías con grandes movimientos de tierra,
                   urbanismo, edificaciones de hasta 23 niveles, casas finca,
                   bodegas, puentes postensados, redes secas y húmedas, y
                   estructuras de mitigación.
@@ -1471,10 +1471,11 @@ export default function Home() {
             <div className="container">
               <div className="section-heading">
                 <span className="section-kicker">Experiencia y proyectos</span>
-                <h2>Obras y equipos que han marcado su trayectoria.</h2>
+                <h2>Trayectoria en dirección y residencia de obra e interventoría.</h2>
                 <p>
-                  Una selección de proyectos y responsabilidades descritos en
-                  su hoja de vida.
+                  He desempeñado los cargos de directora y residente de obra,
+                  así como directora y residente de interventoría. Esta es una
+                  selección de proyectos y responsabilidades de mi trayectoria.
                 </p>
               </div>
               <div className="timeline">
@@ -1861,12 +1862,12 @@ export default function Home() {
             <div className="footer-grid">
               <div>
                 <div className="footer-brand">
-                  Xiomara Hercilia Melguizo Martínez
+                  Xiomara Melguizo
                 </div>
                 <p className="footer-copy">
-                  Ingeniera civil con experiencia como directora de obra y
-                  residente de interventoría en proyectos de Medellín y
-                  Antioquia.
+                  Ingeniera civil con experiencia como directora y residente
+                  de obra, y directora y residente de interventoría en
+                  proyectos civiles de Medellín y Antioquia.
                 </p>
               </div>
               <div>
@@ -1902,7 +1903,7 @@ export default function Home() {
               </div>
             </div>
             <div className="footer-bottom">
-              © {new Date().getFullYear()} Xiomara Melguizo Martínez. Todos los
+              © {new Date().getFullYear()} Xiomara Melguizo. Todos los
               derechos reservados.
             </div>
           </div>

@@ -1,12 +1,14 @@
 import "./globals.css"
 
 export const metadata = {
-  title: "Xiomara Hercilia Melguizo Martínez | Ingeniera Civil en Medellín",
+  title: "Xiomara Melguizo | Ingeniera Civil en Medellín",
   description:
-    "Soy ingeniera civil con más de 15 años de experiencia como directora de obra y residente de interventoría en proyectos de construcción civil, vías e infraestructura en Medellín y Antioquia.",
+    "Ingeniera civil con más de 15 años de experiencia como directora y residente de obra, y directora y residente de interventoría en proyectos civiles en Medellín y Antioquia.",
   keywords: [
     "ingeniera civil",
     "dirección de obra",
+    "residente de obra",
+    "dirección de interventoría",
     "residente de interventoría",
     "interventoría",
     "obras viales",
