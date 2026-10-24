@@ -22,4 +22,5 @@ La exportación estática se genera en `out/`. El sitio usa la ruta de proyecto:
 
 Antes de publicar por primera vez, selecciona **GitHub Actions** como origen
 en **Settings → Pages → Build and deployment**. GitHub no permite habilitar
-Pages automáticamente desde este workflow.
+Pages automáticamente desde este workflow. Una vez habilitado, cada envío a
+`main` inicia la publicación; también puedes ejecutarla desde **Actions**.
