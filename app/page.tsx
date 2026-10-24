@@ -1370,7 +1370,10 @@ export default function Home() {
                 </p>
                 <p className="hero-copy">
                   Dirección y residencia de obra e interventoría para proyectos
-                  civiles, con gestión responsable en cada etapa.
+                  civiles, con gestión responsable en cada etapa. Cuento con
+                  formación complementaria en suelos, ferrocarriles, gestión
+                  del riesgo, construcciones sismorresistentes y gerencia de
+                  proyectos bajo los estándares del PMI.
                 </p>
                 <div className="button-row">
                   <a className="button button-gold" href="#agendar">
