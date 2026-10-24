@@ -1486,6 +1486,10 @@ export default function Home() {
                     <p className="timeline-role">
                       Residente de obra · DIRTECO S. A. S.
                     </p>
+                    <p className="timeline-role">
+                      Otras empresas del periodo: SYCO Ingeniería S.A.S.,
+                      TAXPOBLADO S.A.S. e ISCONCIVILES S.A.S.
+                    </p>
                     <p>
                       Cuantificación de obra, supervisión de procesos y control
                       de calidad en varias áreas del proyecto, con seguimiento
@@ -1519,6 +1523,18 @@ export default function Home() {
                       Residente de obra y residente de interventoría · Medellín
                       y municipios de Antioquia
                     </p>
+                    <p className="timeline-role">
+                      Empresas y entidades: AGAC Construcciones &amp; Servicios
+                      de Ingeniería S.A.S., Acero Más Concreto S.A.S.,
+                      Consorcio Mantenimientos Hospitalarios 2023, Consorcio
+                      HERMES S.A., Profesional Plus, Consorcio Corredor Vial
+                      CYA, FEYMA Ingeniería S.A.S., Geoperaciones S.A.S., MGL
+                      Ingenieros S.A.S., Promotora Arboleda de San Antonio
+                      S.A.S., Promotora Nebraska S.A.S., RCR Ingeniería
+                      S.A.S., Línea Global Ingeniería S.A.S., CNV
+                      Construcciones S.A.S., Alcaldía de Medellín, Moderline
+                      S.A.S. y EDUNORTE.
+                    </p>
                     <p>
                       Seguimiento de mejoramientos viales, obras
                       complementarias, andenes y señalización; control de
@@ -1536,6 +1552,12 @@ export default function Home() {
                       Directora de obra y residente de interventoría ·
                       Antioquia
                     </p>
+                    <p className="timeline-role">
+                      Empresas y entidades: C.I. Banacol S.A.S., Constructora
+                      3más1 S.A.S., Constructora Techno Hábitat S.A.S.,
+                      Iconsulting S.A.S., Promotora de Proyectos 43C S.A.S. y
+                      Promotora Nebraska S.A.S.
+                    </p>
                     <p>
                       Participación en edificios de hasta 20 niveles, una
                       bodega de 35 × 25 × 14 m y una casa finca de 400 m²,
@@ -1552,6 +1574,12 @@ export default function Home() {
                     <p className="timeline-role">
                       Residente de obra y residente de interventoría · Medellín
                       y Antioquia
+                    </p>
+                    <p className="timeline-role">
+                      Empresas y entidades: Arquitectos e Ingenieros Asociados
+                      S.A. (AIA), Alcaldía de Sabaneta, Consorcio EDIGAB,
+                      Infraestructura Nacional y Consorcio Soluciones
+                      Medellín.
                     </p>
                     <p>
                       Participación en urbanizaciones con 81 y 63 viviendas,
