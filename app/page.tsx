@@ -1429,6 +1429,11 @@ export default function Home() {
                   mitigación.
                 </p>
                 <p>
+                  Cuento con formación complementaria en suelos, gestión del
+                  riesgo, construcción sismorresistente y gerencia de proyectos
+                  bajo los estándares del PMI.
+                </p>
+                <p>
                   Mi experiencia incluye revisión y gestión de licencias,
                   control de calidad de materiales, producción de concreto en
                   planta, manejo de proveedores, cuantificación de materiales,
