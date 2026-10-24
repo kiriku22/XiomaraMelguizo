@@ -21,5 +21,4 @@ La exportación estática se genera en `out/`. El sitio usa la ruta de proyecto:
 `https://kiriku22.github.io/XiomaraMelguizo/`
 
 En **Settings → Pages**, selecciona **GitHub Actions** como origen de
-publicación. Los documentos de la carpeta `CV/` se excluyen del repositorio
-para evitar publicar información personal.
+publicación. 
