@@ -1390,7 +1390,7 @@ export default function Home() {
               <div className="photo-frame">
                 <Image
                   className="profile-photo"
-                  src={`${publicBasePath}/assets/xiomara-melguizo.jpg`}
+                  src={`${publicBasePath}/assets/perfilfoto.jpeg`}
                   alt="Fotografía profesional de Xiomara Hercilia Melguizo Martínez"
                   width={389}
                   height={584}
