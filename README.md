@@ -15,11 +15,14 @@ npm run dev
 El workflow `.github/workflows/deploy.yml` construye y publica el sitio
 automáticamente en GitHub Pages al actualizar la rama `main`. También puede
 ejecutarse manualmente desde la pestaña **Actions** del repositorio.
+El workflow solicita habilitar GitHub Pages automáticamente en el primer
+despliegue.
 
 La exportación estática se genera en `out/`. El sitio usa la ruta de proyecto:
 
 `https://kiriku22.github.io/XiomaraMelguizo/`
 
-En **Settings → Pages**, selecciona **GitHub Actions** como origen de
-publicación. Los documentos de la carpeta `CV/` se excluyen del repositorio
-para evitar publicar información personal.
+Si la organización o el repositorio no permiten la habilitación automática,
+selecciona **GitHub Actions** como origen en **Settings → Pages**. Los
+documentos de la carpeta `CV/` se excluyen del repositorio para evitar
+publicar información personal.
