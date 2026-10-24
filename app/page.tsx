@@ -37,7 +37,7 @@ const services = [
   {
     title: "Interventoría de obras y vías",
     description:
-      "Acompañamiento técnico y administrativo para obras viales, urbanismo, espacio público y edificaciones.",
+      "Acompañamiento profesional y administrativo para obras viales, urbanismo, espacio público y edificaciones.",
     icon: Route,
   },
   {
@@ -61,7 +61,7 @@ const services = [
   {
     title: "Acompañamiento en licencias",
     description:
-      "Orientación técnico-normativa y apoyo en la revisión y gestión de licencias de construcción.",
+      "Orientación profesional sobre normativa urbanística y apoyo en la revisión y gestión de licencias de construcción.",
     icon: FileText,
   },
 ]
@@ -1350,9 +1350,9 @@ export default function Home() {
                   Ingeniera civil · Matrícula profesional 05202155471ANT
                 </p>
                 <p className="hero-copy">
-                  Acompañamiento técnico y responsable para convertir proyectos
-                  de infraestructura, vías y edificación en obras bien
-                  planeadas, supervisadas y ejecutadas.
+                  Acompañamiento profesional y responsable para convertir
+                  proyectos de infraestructura, vías y edificación en obras
+                  bien planeadas, supervisadas y ejecutadas.
                 </p>
                 <div className="button-row">
                   <a className="button button-gold" href="#agendar">
@@ -1370,8 +1370,8 @@ export default function Home() {
                   <span>años de experiencia</span>
                 </div>
                 <p className="hero-card-copy">
-                  Experiencia como directora de obra en proyectos de
-                  construcción e interventoría civil.
+                  Experiencia como directora de obra y residente de
+                  interventoría en proyectos civiles.
                 </p>
                 <div className="hero-card-divider" />
                 <div className="hero-detail">
@@ -1399,19 +1399,28 @@ export default function Home() {
               </div>
               <div className="profile-copy">
                 <span className="section-kicker">Perfil profesional</span>
-                <h2>Experiencia técnica, gestión y trabajo en equipo.</h2>
+                <h2>Experiencia profesional, gestión y liderazgo.</h2>
                 <p>
                   Soy ingeniera civil de la Universidad Nacional de Colombia y
-                  cuento con más de 15 años de experiencia en la dirección de
-                  obras y la interventoría de proyectos civiles. He participado
-                  en proyectos de vías, urbanismo, edificaciones y redes, desde
-                  la planeación y el presupuesto hasta el seguimiento en campo.
+                  cuento con más de 15 años de experiencia como directora de
+                  obra y residente de interventoría. He participado en
+                  proyectos de vías con grandes movimientos de tierra,
+                  urbanismo, edificaciones de hasta 23 niveles, casas finca,
+                  bodegas, puentes postensados, redes secas y húmedas, y
+                  estructuras de mitigación.
                 </p>
                 <p>
-                  Combino el control de cantidades y costos con la revisión de
-                  calidad, la coordinación de equipos y la elaboración de
-                  informes claros para facilitar decisiones oportunas en cada
-                  etapa del proyecto.
+                  Mi experiencia incluye revisión y gestión de licencias,
+                  control de calidad de materiales, producción de concreto en
+                  planta, manejo de proveedores, cuantificación de materiales,
+                  supervisión de obra, interventoría vial, elaboración de
+                  cortes y coordinación de personal.
+                </p>
+                <p>
+                  Me caracterizo por el liderazgo, el trabajo colaborativo, la
+                  planeación y la orientación a resultados. También cuento con
+                  experiencia en licitaciones, control de costos, elaboración
+                  de informes y responsabilidad contractual.
                 </p>
                 <ul className="credential-list">
                   <li>
@@ -1477,9 +1486,9 @@ export default function Home() {
                       Residente de obra · DIRTECO S. A. S.
                     </p>
                     <p>
-                      Cuantificación de obra, supervisión técnica y de calidad
-                      en varias áreas del proyecto, seguimiento de procesos,
-                      bitácora e informes mensuales.
+                      Cuantificación de obra, supervisión de procesos y control
+                      de calidad en varias áreas del proyecto, con seguimiento
+                      de actividades, bitácora e informes mensuales.
                     </p>
                   </div>
                 </article>
@@ -1495,7 +1504,7 @@ export default function Home() {
                     <p>
                       Apoyo a la ejecución de trabajos en la subestación de
                       media tensión, con cuantificación de cantidades,
-                      supervisión técnica y verificación de calidad.
+                      supervisión de obra y verificación de calidad.
                     </p>
                   </div>
                 </article>
@@ -1506,8 +1515,8 @@ export default function Home() {
                       Obras viales, señalización y espacio público en Antioquia
                     </h3>
                     <p className="timeline-role">
-                      Residencia e interventoría · Medellín y municipios de
-                      Antioquia
+                      Residente de obra y residente de interventoría · Medellín
+                      y municipios de Antioquia
                     </p>
                     <p>
                       Seguimiento de mejoramientos viales, obras
@@ -1523,7 +1532,8 @@ export default function Home() {
                       Edificaciones, urbanismo y mejoramiento vial
                     </h3>
                     <p className="timeline-role">
-                      Dirección de obra e interventoría · Antioquia
+                      Directora de obra y residente de interventoría ·
+                      Antioquia
                     </p>
                     <p>
                       Participación en edificios de hasta 20 niveles, una
@@ -1539,13 +1549,14 @@ export default function Home() {
                   <div className="timeline-content">
                     <h3>Vías, redes y proyectos de vivienda</h3>
                     <p className="timeline-role">
-                      Residencia e interventoría · Medellín y Antioquia
+                      Residente de obra y residente de interventoría · Medellín
+                      y Antioquia
                     </p>
                     <p>
                       Participación en urbanizaciones con 81 y 63 viviendas,
                       conjuntos residenciales con torres de hasta 26 niveles y
                       un puente vehicular postensado de 30 m. También apoyó
-                      procesos de licencias y revisión técnico-normativa.
+                      procesos de licencias y revisión de normativa urbanística.
                     </p>
                   </div>
                 </article>
@@ -1853,8 +1864,9 @@ export default function Home() {
                   Xiomara Hercilia Melguizo Martínez
                 </div>
                 <p className="footer-copy">
-                  Ingeniera civil con experiencia en dirección de obra e
-                  interventoría de proyectos en Medellín y Antioquia.
+                  Ingeniera civil con experiencia como directora de obra y
+                  residente de interventoría en proyectos de Medellín y
+                  Antioquia.
                 </p>
               </div>
               <div>
