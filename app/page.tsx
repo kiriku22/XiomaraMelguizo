@@ -1369,8 +1369,8 @@ export default function Home() {
                   <span>años de experiencia</span>
                 </div>
                 <p className="hero-card-copy">
-                  Experiencia en cuatro cargos: directora y residente de obra,
-                  y directora y residente de interventoría.
+                  Experiencia como directora y residente de obra, y como
+                  directora y residente de interventoría.
                 </p>
                 <div className="hero-card-divider" />
                 <div className="hero-detail">
@@ -1401,9 +1401,9 @@ export default function Home() {
                 <h2>Experiencia profesional, gestión y liderazgo.</h2>
                 <p>
                   Soy ingeniera civil de la Universidad Nacional de Colombia y
-                  cuento con más de 15 años de experiencia en cuatro cargos:
-                  directora de obra, residente de obra, directora de
-                  interventoría y residente de interventoría. He participado
+                  cuento con más de 15 años de experiencia como directora de
+                  obra, residente de obra, directora de interventoría y
+                  residente de interventoría. He participado
                   en proyectos de vías con grandes movimientos de tierra,
                   urbanismo, edificaciones de hasta 23 niveles, casas finca,
                   bodegas, puentes postensados, redes secas y húmedas, y
@@ -1473,9 +1473,9 @@ export default function Home() {
                 <span className="section-kicker">Experiencia y proyectos</span>
                 <h2>Trayectoria en dirección y residencia de obra e interventoría.</h2>
                 <p>
-                  He desempeñado los cargos de directora y residente de obra,
-                  así como directora y residente de interventoría. Esta es una
-                  selección de proyectos y responsabilidades de mi trayectoria.
+                  Experiencia como directora y residente de obra, así como
+                  directora y residente de interventoría. Esta es una selección
+                  de proyectos y responsabilidades de mi trayectoria.
                 </p>
               </div>
               <div className="timeline">
