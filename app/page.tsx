@@ -29,7 +29,7 @@ const publicBasePath =
 // Esta lista alimenta las tarjetas de servicios y el selector de agendamiento.
 const services = [
   {
-    title: "Residencia y supervisión de obra",
+    title: "Dirección y supervisión de obra",
     description:
       "Seguimiento en campo, coordinación de actividades, control de calidad y verificación de procesos constructivos.",
     icon: HardHat,
@@ -1370,7 +1370,8 @@ export default function Home() {
                   <span>años de experiencia</span>
                 </div>
                 <p className="hero-card-copy">
-                  En residencia, dirección e interventoría de proyectos civiles.
+                  Experiencia como directora de obra en proyectos de
+                  construcción e interventoría civil.
                 </p>
                 <div className="hero-card-divider" />
                 <div className="hero-detail">
@@ -1400,17 +1401,17 @@ export default function Home() {
                 <span className="section-kicker">Perfil profesional</span>
                 <h2>Experiencia técnica, gestión y trabajo en equipo.</h2>
                 <p>
-                  Xiomara es ingeniera civil de la Universidad Nacional de
-                  Colombia, con más de 15 años de experiencia en residencia,
-                  dirección e interventoría de obras. Ha participado en
-                  proyectos de vías, urbanismo, edificaciones y redes, desde la
-                  planeación y el presupuesto hasta el seguimiento en campo.
+                  Soy ingeniera civil de la Universidad Nacional de Colombia y
+                  cuento con más de 15 años de experiencia en la dirección de
+                  obras y la interventoría de proyectos civiles. He participado
+                  en proyectos de vías, urbanismo, edificaciones y redes, desde
+                  la planeación y el presupuesto hasta el seguimiento en campo.
                 </p>
                 <p>
-                  Su trabajo combina control de cantidades y costos, revisión
-                  de calidad, coordinación de equipos e informes claros para
-                  facilitar decisiones oportunas durante cada etapa del
-                  proyecto.
+                  Combino el control de cantidades y costos con la revisión de
+                  calidad, la coordinación de equipos y la elaboración de
+                  informes claros para facilitar decisiones oportunas en cada
+                  etapa del proyecto.
                 </p>
                 <ul className="credential-list">
                   <li>
@@ -1522,7 +1523,7 @@ export default function Home() {
                       Edificaciones, urbanismo y mejoramiento vial
                     </h3>
                     <p className="timeline-role">
-                      Dirección, residencia e interventoría · Antioquia
+                      Dirección de obra e interventoría · Antioquia
                     </p>
                     <p>
                       Participación en edificios de hasta 20 niveles, una
@@ -1852,7 +1853,7 @@ export default function Home() {
                   Xiomara Hercilia Melguizo Martínez
                 </div>
                 <p className="footer-copy">
-                  Ingeniera civil con experiencia en dirección, residencia e
+                  Ingeniera civil con experiencia en dirección de obra e
                   interventoría de proyectos en Medellín y Antioquia.
                 </p>
               </div>
