@@ -1429,9 +1429,9 @@ export default function Home() {
                   mitigación.
                 </p>
                 <p>
-                  Cuento con formación complementaria en suelos, gestión del
-                  riesgo, construcción sismorresistente y gerencia de proyectos
-                  bajo los estándares del PMI.
+                  Con formación complementaria en suelos, ferrocarriles,
+                  gestión del riesgo, construcciones sismorresistentes y
+                  gerencia de proyectos bajo los estándares del PMI.
                 </p>
                 <p>
                   Mi experiencia incluye revisión y gestión de licencias,
