@@ -348,8 +348,17 @@ export default function Home() {
           padding: 88px 0 82px;
           overflow: hidden;
           background:
-            radial-gradient(ellipse at 84% 25%, rgba(93, 154, 142, 0.22), transparent 34%),
-            linear-gradient(118deg, var(--navy-deep) 0%, #123b4b 70%, #245a62 100%);
+            radial-gradient(
+              ellipse at 84% 25%,
+              rgba(93, 154, 142, 0.22),
+              transparent 34%
+            ),
+            linear-gradient(
+              118deg,
+              var(--navy-deep) 0%,
+              #123b4b 70%,
+              #245a62 100%
+            );
           color: white;
         }
 
@@ -361,7 +370,9 @@ export default function Home() {
           height: 620px;
           border: 1px solid rgba(255, 255, 255, 0.13);
           border-radius: 50%;
-          box-shadow: 0 0 0 55px rgba(255, 255, 255, 0.025), 0 0 0 110px rgba(255, 255, 255, 0.02);
+          box-shadow:
+            0 0 0 55px rgba(255, 255, 255, 0.025),
+            0 0 0 110px rgba(255, 255, 255, 0.02);
           content: "";
           pointer-events: none;
         }
@@ -584,7 +595,11 @@ export default function Home() {
           overflow: hidden;
           border-radius: 12px;
           background:
-            linear-gradient(145deg, rgba(18, 51, 68, 0.12), rgba(43, 121, 117, 0.2)),
+            linear-gradient(
+              145deg,
+              rgba(18, 51, 68, 0.12),
+              rgba(43, 121, 117, 0.2)
+            ),
             #dfe9e5;
         }
 
@@ -889,7 +904,11 @@ export default function Home() {
 
         .booking-section {
           background:
-            radial-gradient(ellipse at 100% 0%, rgba(43, 121, 117, 0.09), transparent 36%),
+            radial-gradient(
+              ellipse at 100% 0%,
+              rgba(43, 121, 117, 0.09),
+              transparent 36%
+            ),
             #f8faf8;
         }
 
@@ -1403,24 +1422,24 @@ export default function Home() {
                   Soy ingeniera civil de la Universidad Nacional de Colombia y
                   cuento con más de 15 años de experiencia como directora de
                   obra, residente de obra, directora de interventoría y
-                  residente de interventoría. He participado
-                  en proyectos de vías con grandes movimientos de tierra,
-                  urbanismo, edificaciones de hasta 23 niveles, casas finca,
-                  bodegas, puentes postensados, redes secas y húmedas, y
-                  estructuras de mitigación.
+                  residente de interventoría. He participado en proyectos de
+                  vías con grandes movimientos de tierra, urbanismo,
+                  edificaciones de hasta 23 niveles, casas finca, bodegas,
+                  puentes postensados, redes secas y húmedas, y estructuras de
+                  mitigación.
                 </p>
                 <p>
                   Mi experiencia incluye revisión y gestión de licencias,
                   control de calidad de materiales, producción de concreto en
                   planta, manejo de proveedores, cuantificación de materiales,
-                  supervisión de obra, interventoría vial, elaboración de
-                  cortes y coordinación de personal.
+                  supervisión de obra, interventoría vial, elaboración de cortes
+                  y coordinación de personal.
                 </p>
                 <p>
                   Me caracterizo por el liderazgo, el trabajo colaborativo, la
                   planeación y la orientación a resultados. También cuento con
-                  experiencia en licitaciones, control de costos, elaboración
-                  de informes y responsabilidad contractual.
+                  experiencia en licitaciones, control de costos, elaboración de
+                  informes y responsabilidad contractual.
                 </p>
                 <ul className="credential-list">
                   <li>
@@ -1471,7 +1490,9 @@ export default function Home() {
             <div className="container">
               <div className="section-heading">
                 <span className="section-kicker">Experiencia y proyectos</span>
-                <h2>Trayectoria en dirección y residencia de obra e interventoría.</h2>
+                <h2>
+                  Trayectoria en dirección y residencia de obra e interventoría.
+                </h2>
                 <p>
                   Experiencia como directora y residente de obra, así como
                   directora y residente de interventoría. Esta es una selección
@@ -1525,15 +1546,14 @@ export default function Home() {
                     </p>
                     <p className="timeline-role">
                       Empresas y entidades: AGAC Construcciones &amp; Servicios
-                      de Ingeniería S.A.S., Acero Más Concreto S.A.S.,
-                      Consorcio Mantenimientos Hospitalarios 2023, Consorcio
-                      HERMES S.A., Profesional Plus, Consorcio Corredor Vial
-                      CYA, FEYMA Ingeniería S.A.S., Geoperaciones S.A.S., MGL
-                      Ingenieros S.A.S., Promotora Arboleda de San Antonio
-                      S.A.S., Promotora Nebraska S.A.S., RCR Ingeniería
-                      S.A.S., Línea Global Ingeniería S.A.S., CNV
-                      Construcciones S.A.S., Alcaldía de Medellín, Moderline
-                      S.A.S. y EDUNORTE.
+                      de Ingeniería S.A.S., Acero Más Concreto S.A.S., Consorcio
+                      Mantenimientos Hospitalarios 2023, Consorcio HERMES S.A.,
+                      Profesional Plus, Consorcio Corredor Vial CYA, FEYMA
+                      Ingeniería S.A.S., Geoperaciones S.A.S., MGL Ingenieros
+                      S.A.S., Promotora Arboleda de San Antonio S.A.S.,
+                      Promotora Nebraska S.A.S., RCR Ingeniería S.A.S., Línea
+                      Global Ingeniería S.A.S., CNV Construcciones S.A.S.,
+                      Alcaldía de Medellín, Moderline S.A.S. y EDUNORTE.
                     </p>
                     <p>
                       Seguimiento de mejoramientos viales, obras
@@ -1545,12 +1565,9 @@ export default function Home() {
                 <article className="timeline-item">
                   <div className="timeline-date">2017–2021</div>
                   <div className="timeline-content">
-                    <h3>
-                      Edificaciones, urbanismo y mejoramiento vial
-                    </h3>
+                    <h3>Edificaciones, urbanismo y mejoramiento vial</h3>
                     <p className="timeline-role">
-                      Directora de obra y residente de interventoría ·
-                      Antioquia
+                      Directora de obra y residente de interventoría · Antioquia
                     </p>
                     <p className="timeline-role">
                       Empresas y entidades: C.I. Banacol S.A.S., Constructora
@@ -1559,11 +1576,11 @@ export default function Home() {
                       Promotora Nebraska S.A.S.
                     </p>
                     <p>
-                      Participación en edificios de hasta 20 niveles, una
-                      bodega de 35 × 25 × 14 m y una casa finca de 400 m²,
-                      además del mejoramiento vial en El Chagualo, Medellín.
-                      Incluyó presupuestos, control de costos, cronogramas y
-                      supervisión constructiva.
+                      Participación en edificios de hasta 20 niveles, una bodega
+                      de 35 × 25 × 14 m y una casa finca de 400 m², además del
+                      mejoramiento vial en El Chagualo, Medellín. Incluyó
+                      presupuestos, control de costos, cronogramas y supervisión
+                      constructiva.
                     </p>
                   </div>
                 </article>
@@ -1578,8 +1595,7 @@ export default function Home() {
                     <p className="timeline-role">
                       Empresas y entidades: Arquitectos e Ingenieros Asociados
                       S.A. (AIA), Alcaldía de Sabaneta, Consorcio EDIGAB,
-                      Infraestructura Nacional y Consorcio Soluciones
-                      Medellín.
+                      Infraestructura Nacional y Consorcio Soluciones Medellín.
                     </p>
                     <p>
                       Participación en urbanizaciones con 81 y 63 viviendas,
@@ -1620,7 +1636,10 @@ export default function Home() {
                     Software e idiomas
                   </h3>
                   <p className="credential-subtitle">Diseño y programación</p>
-                  <ul className="tag-list" aria-label="Software de diseño y programación">
+                  <ul
+                    className="tag-list"
+                    aria-label="Software de diseño y programación"
+                  >
                     <li>AutoCAD</li>
                     <li>ETABS</li>
                     <li>MS Project</li>
@@ -1629,7 +1648,10 @@ export default function Home() {
                   <p className="credential-subtitle">
                     Control de costos y productividad
                   </p>
-                  <ul className="tag-list" aria-label="Software de control de costos">
+                  <ul
+                    className="tag-list"
+                    aria-label="Software de control de costos"
+                  >
                     <li>CIO Milenio</li>
                     <li>SAO</li>
                     <li>PACO</li>
@@ -1651,7 +1673,9 @@ export default function Home() {
           <section className="recruiter-section" id="contratacion">
             <div className="container recruiter-inner">
               <div className="recruiter-copy">
-                <span className="section-kicker">Para empresas y reclutadores</span>
+                <span className="section-kicker">
+                  Para empresas y reclutadores
+                </span>
                 <h2>¿Buscas experiencia en obra e interventoría?</h2>
                 <p>
                   Para oportunidades laborales, procesos de selección o
@@ -1693,8 +1717,7 @@ export default function Home() {
                   <MessageCircle size={19} aria-hidden="true" />
                   <div>
                     <strong>Confirmación por WhatsApp</strong>
-                    La fecha y hora quedan sujetas a confirmación por ese
-                    medio.
+                    La fecha y hora quedan sujetas a confirmación por ese medio.
                   </div>
                 </div>
               </div>
@@ -1717,7 +1740,11 @@ export default function Home() {
                       aria-describedby={errors.name ? "name-error" : undefined}
                     />
                     {errors.name && (
-                      <span className="field-error" id="name-error" role="alert">
+                      <span
+                        className="field-error"
+                        id="name-error"
+                        role="alert"
+                      >
                         {errors.name}
                       </span>
                     )}
@@ -1731,10 +1758,16 @@ export default function Home() {
                       autoComplete="tel"
                       required
                       aria-invalid={Boolean(errors.phone)}
-                      aria-describedby={errors.phone ? "phone-error" : undefined}
+                      aria-describedby={
+                        errors.phone ? "phone-error" : undefined
+                      }
                     />
                     {errors.phone && (
-                      <span className="field-error" id="phone-error" role="alert">
+                      <span
+                        className="field-error"
+                        id="phone-error"
+                        role="alert"
+                      >
                         {errors.phone}
                       </span>
                     )}
@@ -1750,10 +1783,16 @@ export default function Home() {
                       type="email"
                       autoComplete="email"
                       aria-invalid={Boolean(errors.email)}
-                      aria-describedby={errors.email ? "email-error" : undefined}
+                      aria-describedby={
+                        errors.email ? "email-error" : undefined
+                      }
                     />
                     {errors.email && (
-                      <span className="field-error" id="email-error" role="alert">
+                      <span
+                        className="field-error"
+                        id="email-error"
+                        role="alert"
+                      >
                         {errors.email}
                       </span>
                     )}
@@ -1766,7 +1805,9 @@ export default function Home() {
                       defaultValue=""
                       required
                       aria-invalid={Boolean(errors.service)}
-                      aria-describedby={errors.service ? "service-error" : undefined}
+                      aria-describedby={
+                        errors.service ? "service-error" : undefined
+                      }
                     >
                       <option value="" disabled>
                         Selecciona un servicio
@@ -1778,7 +1819,11 @@ export default function Home() {
                       ))}
                     </select>
                     {errors.service && (
-                      <span className="field-error" id="service-error" role="alert">
+                      <span
+                        className="field-error"
+                        id="service-error"
+                        role="alert"
+                      >
                         {errors.service}
                       </span>
                     )}
@@ -1796,7 +1841,11 @@ export default function Home() {
                       aria-describedby={errors.date ? "date-error" : undefined}
                     />
                     {errors.date && (
-                      <span className="field-error" id="date-error" role="alert">
+                      <span
+                        className="field-error"
+                        id="date-error"
+                        role="alert"
+                      >
                         {errors.date}
                       </span>
                     )}
@@ -1821,7 +1870,11 @@ export default function Home() {
                       ))}
                     </select>
                     {errors.time && (
-                      <span className="field-error" id="time-error" role="alert">
+                      <span
+                        className="field-error"
+                        id="time-error"
+                        role="alert"
+                      >
                         {errors.time}
                       </span>
                     )}
@@ -1867,7 +1920,10 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <button className="button button-gold booking-submit" type="submit">
+                <button
+                  className="button button-gold booking-submit"
+                  type="submit"
+                >
                   Preparar solicitud en WhatsApp{" "}
                   <ArrowRight size={17} aria-hidden="true" />
                 </button>
@@ -1875,7 +1931,11 @@ export default function Home() {
                   Los campos marcados con * son obligatorios.
                 </p>
                 {confirmation && (
-                  <div className="confirmation" role="status" aria-live="polite">
+                  <div
+                    className="confirmation"
+                    role="status"
+                    aria-live="polite"
+                  >
                     <CheckCircle2 size={19} aria-hidden="true" />
                     <span>{confirmation}</span>
                   </div>
@@ -1889,13 +1949,11 @@ export default function Home() {
           <div className="container">
             <div className="footer-grid">
               <div>
-                <div className="footer-brand">
-                  Xiomara Melguizo
-                </div>
+                <div className="footer-brand">Xiomara Melguizo</div>
                 <p className="footer-copy">
-                  Ingeniera civil con experiencia como directora y residente
-                  de obra, y directora y residente de interventoría en
-                  proyectos civiles de Medellín y Antioquia.
+                  Ingeniera civil con experiencia como directora y residente de
+                  obra, y directora y residente de interventoría en proyectos
+                  civiles de Medellín y Antioquia.
                 </p>
               </div>
               <div>
@@ -1931,8 +1989,8 @@ export default function Home() {
               </div>
             </div>
             <div className="footer-bottom">
-              © {new Date().getFullYear()} Xiomara Melguizo. Todos los
-              derechos reservados.
+              © {new Date().getFullYear()} Xiomara Melguizo. Todos los derechos
+              reservados.
             </div>
           </div>
         </footer>
